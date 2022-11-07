@@ -1,0 +1,5 @@
+f=open('myfile.txt','r')
+print('the file contents are:')
+str=f.read()
+print(str)
+f.close()
